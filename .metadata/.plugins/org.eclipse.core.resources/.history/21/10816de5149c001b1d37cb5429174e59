@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BangunDatarApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="klik_me">Klik Me</string>
+    <string name="title_activity_luas_lingkaran">LuasLingkaranActivity</string>
+
+</resources>

@@ -1,0 +1,43 @@
+package com.evta.bangundatarapp;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class MainActivity extends Activity implements OnClickListener{
+	
+	Button click_me,segitiga,lingkaran;
+	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        click_me = (Button)findViewById(R.id.button1);
+		segitiga = (Button)findViewById(R.id.button2);
+		lingkaran = (Button)findViewById(R.id.button3);
+		
+		click_me.setOnClickListener(this);
+		segitiga.setOnClickListener(this);
+		lingkaran.setOnClickListener(this);	
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+
+	@Override
+	public void onClick(View arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+    
+}

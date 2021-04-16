@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+F:\praktek\eclipse\spada_unpri\si_6_pag_c\.metadata\.plugins\org.eclipse.jdt.core
+2674382612.index
+2149140769.index
+3205830412.index
+685984695.index
+11166514.index
+837159187.index
+1829334552.index
+385681294.index
+3784205123.index
